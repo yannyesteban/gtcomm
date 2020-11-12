@@ -1,11 +1,11 @@
 <?php
 //set_include_path(get_include_path().":"."/path/to/new/folder");
-define("MAIN_PATH", "../../");
-define("MODULE_PATH", "../../");
-define("JSON_PATH", "../../json/");
-define("TEMPLATES_PATH", "../../templates/");
-define("IMAGES_PATH", "../../images/");
-define("PATH_IMAGES", "../../images/");
+define("MAIN_PATH", "../../sevian2020/");
+define("MODULE_PATH", "../../sevian2020/");
+define("JSON_PATH", "../../sevian2020/json/");
+define("TEMPLATES_PATH", "../../sevian2020/templates/");
+define("IMAGES_PATH", "../../sevian2020/images/");
+define("PATH_IMAGES", "../../sevian2020/images/");
 
 define("SEVIAN_PATH", "");
 define("SIGEFOR_PATH", "");
