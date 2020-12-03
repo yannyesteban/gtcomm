@@ -19,7 +19,7 @@ include MAIN_PATH.'configuration/js.php';
 include MAIN_PATH.'configuration/themes.php';
 include MAIN_PATH.'configuration/bd.php';
 include MAIN_PATH.'configuration/inputs.php';
-include 'gt/elements.php';
+include MAIN_PATH.'gt/configuration/elements.php';
 include MAIN_PATH.'configuration/actions.php';
 include MAIN_PATH.'configuration/commands.php';
 
