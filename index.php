@@ -7,6 +7,7 @@ define("TEMPLATES_PATH", "../sevian2020/templates/");
 define("IMAGES_PATH", "../sevian2020/images/");
 define("PATH_IMAGES", "../sevian2020/images/");
 
+
 define("SEVIAN_PATH", "");
 define("SIGEFOR_PATH", "");
 
