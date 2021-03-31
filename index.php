@@ -1,30 +1,14 @@
 <?php
-//set_include_path(get_include_path().":"."/path/to/new/folder");
-define("MAIN_PATH", "../sevian2020/");
-define("MODULE_PATH", "../sevian2020/");
-define("JSON_PATH", "../sevian2020/json/");
-define("TEMPLATES_PATH", "../sevian2020/templates/");
-define("IMAGES_PATH", "../sevian2020/images/");
-define("PATH_IMAGES", "../sevian2020/images/");
+ini_set('memory_limit','512M');
 
+$constants = (array)json_decode(@file_get_contents("constants.json", true));
 
-define("SEVIAN_PATH", "");
-define("SIGEFOR_PATH", "");
+foreach($constants as $key => $value){
+    define($key, $value);
+}
 
 include MAIN_PATH.'Sevian/functions.php';
 include MAIN_PATH.'Sevian/sevian.php';
 
-include MAIN_PATH.'gt/configuration/css.php';
-include MAIN_PATH.'configuration/js.php';
-
-include MAIN_PATH.'configuration/themes.php';
-include MAIN_PATH.'configuration/bd.php';
-include MAIN_PATH.'configuration/inputs.php';
-include MAIN_PATH.'gt/configuration/elements.php';
-include MAIN_PATH.'configuration/actions.php';
-include MAIN_PATH.'configuration/commands.php';
-
-include 'gt/init.php';
-
-/* test */
+Sevian\S::setConfigInit('config.json', $constants);
 echo Sevian\S::render();

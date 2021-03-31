@@ -1,0 +1,12 @@
+{
+    "MAIN_PATH": "../sevian2020/",
+    "MODULE_PATH": "../sevian2020/",
+    "JSON_PATH": "../sevian2020/json/",
+    "TEMPLATES_PATH": "../sevian2020/templates/",
+    "IMAGES_PATH": "../sevian2020/images/",
+    "PATH_IMAGES": "../sevian2020/images/",
+    "SEVIAN_PATH": "",
+    "SIGEFOR_PATH": "",
+    "PATH"  : "../sevian2020/",
+    "BUILD" :  "../sevian2020/build/"
+}
