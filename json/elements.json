@@ -108,8 +108,12 @@
         "class": "\\GT\\Map",
         "enable": true,
         "module":{
+<<<<<<< HEAD
             "name":"Map",
             "alias":"GTMap",
+=======
+            "name":"GTMap",
+>>>>>>> 0dae7adb56400165503f0f2c60662ccf832f14f7
             "src":"{@MAIN_PATH}build/GT/ts/Map.js"
         },
         "js": [
@@ -143,8 +147,12 @@
         "class": "\\GT\\Unit",
         "enable": true,
         "module":{
+<<<<<<< HEAD
             "name":"Unit",
             "alias":"GTUnit",
+=======
+            "name":"GTUnit",
+>>>>>>> 0dae7adb56400165503f0f2c60662ccf832f14f7
             "src":"{@MAIN_PATH}build/GT/ts/Unit.js"
         },
         "js": [
@@ -160,11 +168,14 @@
         "file": "{@MAIN_PATH}gt/History.php",
         "class": "\\GT\\History",
         "enable": true,
+<<<<<<< HEAD
         "module":{
             "name":"History",
             "alias":"GTHistory",
             "src":"{@MAIN_PATH}build/GT/ts/History.js"
         },
+=======
+>>>>>>> 0dae7adb56400165503f0f2c60662ccf832f14f7
         "js": [
             {
                 "file_": "{@MAIN_PATH}build/GT/ts/History.js",
@@ -175,6 +186,7 @@
         "init": {
             "patternJsonFile": "{@MAIN_PATH}json/{name}.json"
         }
+<<<<<<< HEAD
     },
     {
         "name": "gt-site",
@@ -196,6 +208,8 @@
         "init": {
             "patternJsonFile": "{@MAIN_PATH}json/{name}.json"
         }
+=======
+>>>>>>> 0dae7adb56400165503f0f2c60662ccf832f14f7
     }
     
     
