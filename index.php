@@ -12,5 +12,5 @@ include MAIN_PATH.'Sevian/functions.php';
 include MAIN_PATH.'Sevian/sevian.php';
 
 Sevian\S::setEnvData($env);
-Sevian\S::setConfigInit('config.json', $constants);
+Sevian\S::setConfigInit(MAIN_PATH.'modules/cota2/config.json', $constants);
 echo Sevian\S::render();

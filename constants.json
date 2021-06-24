@@ -2,6 +2,7 @@
     "MAIN_PATH": "../sevian2020/",
     "MODULE_PATH": "../sevian2020/",
     "JSON_PATH": "../sevian2020/json/",
+    "CONFIG_PATH": "../sevian2020/modules/cota2/config/",
     "TEMPLATES_PATH": "../sevian2020/templates/",
     "IMAGES_PATH": "../sevian2020/images/",
     "PATH_IMAGES": "../sevian2020/images/",
